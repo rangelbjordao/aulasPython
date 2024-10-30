@@ -8,7 +8,11 @@ termo = input()
 # vamos acessar o arquivo como uma lista de linhas
 linhas = arquivo.readlines()
 
+ocorrencias = 0
 print('Linhas do arquivo', nome_arquivo, 'contendo', termo)
 for linha in linhas:
     if termo in linha:  # se o termo buscado ocorre nessa linha
+        ocorrencias += 1
         print(linha.strip())
+
+print(ocorrencias)
