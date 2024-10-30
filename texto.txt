@@ -1,5 +1,6 @@
 bom dia!
 
-estas palavras estao escritas em um arquivo
+estas palavras estão escritas em um arquivo.
 
-se eu modificar o arquivo, o programa
+se eu modificar o arquivo, o programa vai mostrar o
+conteúdo novo quando for executado.
