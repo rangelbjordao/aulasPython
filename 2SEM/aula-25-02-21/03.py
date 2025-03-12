@@ -10,11 +10,12 @@ def primo(n):
         return True
     if n % 2 == 0:
         return False
-    
+
     for i in range(3, n, 2):
         if (n % i == 0):
             return False
     return True
+
 
 '''
 Mostra os numeros primos em um intervalo numerico
